@@ -4,48 +4,50 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  Svg: string | React.ComponentType<React.ComponentProps<'svg'>>; // 修改为支持字符串路径和组件
   description: JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: '软件部',
+    Svg: '/img/software.png', // 使用直接路径
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        软件部负责开发和维护协会的软件项目，包括网站、App 和工具开发。我们注重代码质量和团队协作，欢迎你的加入！
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: '硬件部',
+    Svg: '/img/hardware.png', // 使用直接路径
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        硬件部专注于硬件创新与开发，负责制作实验设备、机器人及电路设计，期待你的加入！
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: '学创部',
+    Svg: '/img/innovation.png', // 使用直接路径
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        学创部致力于学生创新项目的策划和实施，通过竞赛、研究项目和课题组提升创新能力，欢迎有创意的你加入！
       </>
     ),
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({ title, Svg, description }: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        {/* 判断是字符串路径时使用 <img>，否则当作 React 组件处理 */}
+        {typeof Svg === 'string' ? (
+          <img src={Svg} alt={title} style={{ width: '100px', height: '100px' }} />
+        ) : (
+          <Svg className={styles.featureSvg} role="img" />
+        )}
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
