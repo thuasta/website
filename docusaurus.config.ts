@@ -98,6 +98,10 @@ const config: Config = {
               label: 'Intro',
               to: '/docs/intro',
             },
+            {
+              label: 'Learning Resources',
+              to: '/docs/learning resources/apis/',
+            },
           ],
         },
         {
