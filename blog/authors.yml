@@ -1,4 +1,5 @@
 zidonghuayu:
   name: 紫冬话语
   title: 清华大学自动化系本科生宣传平台
-  image_url: ../zidonghuayu_logo.png # 对于本地图片的获取似乎有问题 或许可以找到紫冬话语的运营者搞到头像的url 并且这种靠相对路径获取图片的方式十分不稳定
+  image_url: /img/zidonghuayu.png
+  page: true
