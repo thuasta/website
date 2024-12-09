@@ -1,4 +1,0 @@
----
-slug: welcome
-title: Welcome
----
