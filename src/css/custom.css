@@ -21,29 +21,37 @@
   /* 高亮代码背景色 */
 
   /* 添加全局霓虹配色变量 */
-  --neon-blue: #00f;
+  --neon-blue: #0066ff;
   /* 蓝色霓虹 */
-  --neon-red: #f00;
+  --neon-red: #ff1a1a;
   /* 红色霓虹 */
-  --neon-white: #fff;
+  --neon-white: #ffffff;
   /* 白色霓虹 */
+
+  /* New variables for text colors */
+  --text-color: #000000;
+  --text-stroke: #ffffff;
 }
 
 /* 深色模式的补充样式 */
 [data-theme='dark'] {
-  --ifm-color-primary: #121212;
+  --ifm-color-primary: #ffffff;
   /* 更加深的黑色 */
-  --ifm-color-primary-dark: #0e0e0e;
-  --ifm-color-primary-darker: #000000;
-  --ifm-color-primary-light: #1a1a1a;
-  --ifm-color-primary-lighter: #262626;
+  --ifm-color-primary-dark: #e6e6e6;
+  --ifm-color-primary-darker: #cccccc;
+  --ifm-color-primary-light: #ffffff;
+  --ifm-color-primary-lighter: #ffffff;
   --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.2);
   /* 深色模式代码高亮背景色 */
 
   /* 深色模式下霓虹效果变量（更亮） */
-  --neon-blue: #33f;
-  --neon-red: #f33;
-  --neon-white: #ccc;
+  --neon-blue: #66b3ff;
+  --neon-red: #ff6666;
+  --neon-white: #ffffff;
+
+  /* Dark mode text colors */
+  --text-color: #ffffff;
+  --text-stroke: #000000;
 }
 
 /* 主标题 - 白色描边 + 淡蓝色光晕 */
@@ -52,15 +60,15 @@
   /* 调整字体大小 */
   font-family: "Arial", sans-serif;
   /* 替换为适配霓虹效果的字体 */
-  color: black;
+  color: var(--text-color);
   /* 中间保持黑色背景 */
-  -webkit-text-stroke: 1.5px #fff;
+  -webkit-text-stroke: 1.5px var(--text-stroke);
   /* 白色描边，保持一定厚度 */
   text-shadow:
-    0 0 10px #00f,
+    0 0 10px var(--neon-blue),
     /* 最轻微的蓝色光晕 */
-    0 0 20px #00f,
-    0 0 30px #00f;
+    0 0 20px var(--neon-blue),
+    0 0 30px var(--neon-blue);
   /* 较淡的蓝色扩散 */
   animation: neon-blue-glow 2s infinite alternate;
   /* 动态光晕效果 */
@@ -72,14 +80,14 @@
   /* 副标题字体大小 */
   font-family: "Arial", sans-serif;
   /* 替换为适配霓虹效果的字体 */
-  color: black;
+  color: var(--text-color);
   /* 中间保持黑色背景 */
-  -webkit-text-stroke: 1.5px #fff;
+  -webkit-text-stroke: 1.5px var(--text-stroke);
   /* 白色描边 */
   text-shadow:
-    0 0 10px #00f,
-    0 0 20px #00f,
-    0 0 30px #00f;
+    0 0 10px var(--neon-blue),
+    0 0 20px var(--neon-blue),
+    0 0 30px var(--neon-blue);
   animation: neon-blue-glow 2s infinite alternate;
 }
 
@@ -87,24 +95,24 @@
 @keyframes neon-blue-glow {
   from {
     text-shadow:
-      0 0 5px #00f,
-      0 0 15px #00f,
-      0 0 20px #00f;
+      0 0 5px var(--neon-blue),
+      0 0 15px var(--neon-blue),
+      0 0 20px var(--neon-blue);
   }
 
   to {
     text-shadow:
-      0 0 10px #00f,
-      0 0 25px #00f,
-      0 0 35px #00f;
+      0 0 10px var(--neon-blue),
+      0 0 25px var(--neon-blue),
+      0 0 35px var(--neon-blue);
   }
 }
 
 /* 顶部标题部分（黑色背景） */
 .heroBanner {
-  background-color: black;
+  background-color: var(--ifm-background-color);
   /* 背景为黑色 */
-  color: white;
+  color: var(--text-color);
   /* 确保文字颜色为白色 */
   padding: 4rem 0;
   /* 调整内边距 */
@@ -113,9 +121,9 @@
 
 /* 下方内容部分（白色背景） */
 .mainContent {
-  background-color: white;
+  background-color: var(--ifm-background-color);
   /* 背景为白色 */
-  color: black;
+  color: var(--text-color);
   /* 确保文字颜色为黑色 */
   padding: 2rem 0;
   /* 调整内边距 */
