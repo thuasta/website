@@ -2,16 +2,32 @@
 
 Source code for the website of ASTA
 
+## Requirements
+
+- Node.js >= 18
+
 ## Install
 
 ```shell
 npm install
 ```
 
+or
+
+```shell
+yarn
+```
+
 ## Usage
 
 ```shell
 npm start
+```
+
+or
+
+```shell
+yarn start
 ```
 
 ## Contributing
