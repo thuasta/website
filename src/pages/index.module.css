@@ -4,20 +4,10 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
-  background-color: #000;
-  /* 设置纯黑色背景 */
-  color: white;
-  /* 确保文字为白色或霓虹色 */
-}
-
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+  color: var(--ifm-color-secondary-contrast-foreground);
 }
 
 .buttons {
@@ -27,10 +17,9 @@
 }
 
 .hero__title {
-  font-size: 3rem;
+  font-size: 4rem;
   font-family: "Arial", sans-serif;
   color: #00f;
-  /* 主体霓虹蓝 */
   text-shadow: 0 0 10px #00f, 0 0 20px #00f, 0 0 30px #00f, 0 0 40px #00f;
   animation: neon-flicker 1.5s infinite alternate;
 }
@@ -45,20 +34,16 @@
   }
 }
 
-/* 霓虹红色文字样式 */
 .neonRed {
   font-size: 1.5rem;
   color: #f00;
-  /* 霓虹红 */
   text-shadow: 0 0 10px #f00, 0 0 20px #f00, 0 0 30px #f00;
 }
 
-/* 按钮的霓虹风格（可选） */
 .buttons .button {
   color: white;
   background: transparent;
   border: 2px solid #00f;
-  /* 蓝色霓虹边框 */
   padding: 0.5rem 1.5rem;
   font-size: 1.2rem;
   font-weight: bold;

@@ -3,9 +3,8 @@
  * This file also supports dark mode and custom primary colors.
  */
 
-/* 原有的全局变量定义 */
 :root {
-  --ifm-color-primary: #000000;
+  --ifm-color-primary: #222222;
   --ifm-color-primary-dark: #1a1a1a;
   --ifm-color-primary-darker: #0d0d0d;
   --ifm-color-primary-light: #333333;
@@ -16,77 +15,22 @@
   --neon-red: #ff1a1a;
   --neon-white: #ffffff;
   --text-color: #000000;
-  --text-stroke: #ffffff;
 }
 
 [data-theme='dark'] {
-  --ifm-color-primary: #ffffff;
+  --ifm-color-primary: #f3f3f3;
   --ifm-color-primary-dark: #e6e6e6;
   --ifm-color-primary-darker: #cccccc;
-  --ifm-color-primary-light: #ffffff;
+  --ifm-color-primary-light: #fcfcfc;
   --ifm-color-primary-lighter: #ffffff;
   --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.2);
   --neon-blue: #66b3ff;
   --neon-red: #ff6666;
   --neon-white: #ffffff;
-  --text-color: #ffffff;
-  --text-stroke: #000000;
+  --text-color: #f3f3f3;
 }
 
-/* 主标题 - 白色描边 + 淡蓝色光晕 */
-.hero__title {
-  font-size: 4rem;
-  font-family: "Arial", sans-serif;
-  color: var(--text-color);
-  -webkit-text-stroke: 1.5px var(--text-stroke);
-  text-shadow:
-    0 0 10px var(--neon-blue),
-    0 0 20px var(--neon-blue),
-    0 0 30px var(--neon-blue);
-  animation: neon-blue-glow 2s infinite alternate;
-}
 
-/* 副标题 - 白色描边 + 淡蓝色光晕 */
-.neon-subtitle {
-  font-size: 2rem;
-  font-family: "Arial", sans-serif;
-  color: var(--text-color);
-  -webkit-text-stroke: 1.5px var(--text-stroke);
-  text-shadow:
-    0 0 10px var(--neon-blue),
-    0 0 20px var(--neon-blue),
-    0 0 30px var(--neon-blue);
-  animation: neon-blue-glow 2s infinite alternate;
-}
-
-/* 动态蓝光效果 */
-@keyframes neon-blue-glow {
-  from {
-    text-shadow:
-      0 0 5px var(--neon-blue),
-      0 0 15px var(--neon-blue),
-      0 0 20px var(--neon-blue);
-  }
-
-  to {
-    text-shadow:
-      0 0 10px var(--neon-blue),
-      0 0 25px var(--neon-blue),
-      0 0 35px var(--neon-blue);
-  }
-}
-
-/* 顶部标题部分（黑色背景） */
-.heroBanner {
-  background-color: var(--ifm-background-color);
-  color: var(--text-color);
-  padding: 4rem 0;
-  text-align: center;
-}
-
-/* 下方内容部分（白色背景） */
-.mainContent {
-  background-color: var(--ifm-background-color);
-  color: var(--text-color);
-  padding: 2rem 0;
+svg {
+    fill: var(--text-color);
 }
