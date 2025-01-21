@@ -16,7 +16,7 @@ function HomepageHeader() {
   return (
     <PixelCard className={styles.heroBanner} gap={undefined} speed={undefined} colors={undefined} noFocus={undefined}>
       <div className="container" style={{position: "absolute"}}>
-        <Heading as='h2'>
+        <Heading as='h1'>
           <SplitText
             text="自动化系学生科协"
             className="text-center hero__title"
