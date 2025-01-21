@@ -10,3 +10,7 @@
   width: 100px;
   fill: var(--text-color);
 }
+
+svg {
+  fill: var(--text-color);
+}
