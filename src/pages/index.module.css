@@ -8,6 +8,7 @@
   height: 300px;
   text-align: center;
   align-items: center;
+  justify-content: center;
   position: relative;
   overflow: hidden;
   color: var(--ifm-color-secondary-contrast-foreground);
