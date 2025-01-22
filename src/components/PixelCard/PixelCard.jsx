@@ -132,10 +132,10 @@ class Pixel {
   
   export default function PixelCard({
     variant = "default",
-    gap,
-    speed,
-    colors,
-    noFocus,
+    gap = 5,
+    speed = 35,
+    colors = "#cccccc,#aaaaaa,#666666",
+    noFocus = false,
     className = "",
     children
   }) {
