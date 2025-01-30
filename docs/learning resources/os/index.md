@@ -1,7 +1,9 @@
-# General Knowledge
+# 操作系统
 
-Operating System is a program that manages a computer’s resources, especially the allocation of those resources among other programs. Typical resources include the central processing unit (CPU), computer memory, file storage, input/output (I/O) devices, and network connections.
+操作系统是管理计算机资源的程序，主要负责在各个程序之间合理分配资源。这些资源包括中央处理单元（CPU）、计算机内存、文件存储、输入/输出（I/O）设备以及网络连接等。
 
-Visit the following resources to learn more:
+:::tip[访问以下资源以了解更多信息]
 
-- [What is an operating system?](https://edu.gcfglobal.org/en/computerbasics/understanding-operating-systems/1/)
+- [什么是操作系统？](https://edu.gcfglobal.org/en/computerbasics/understanding-operating-systems/1/)
+
+:::

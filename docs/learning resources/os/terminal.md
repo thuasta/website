@@ -1,8 +1,14 @@
-# Terminal Usage
+---
+sidebar_position: 1
+---
 
-Terminals, also known as command lines or consoles, allow us to accomplish and automate tasks on a computer without the use of a graphical user interface.
+# 使用终端
 
-Visit the following resources to learn more:
+终端（Terminals），也称为命令行（command lines）或控制台（consoles），允许我们在不使用图形用户界面的情况下完成和自动化计算机上的任务。
 
-- [Command line crash course](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line)
-- [50+ Linux Commands You Must Know](https://www.digitalocean.com/community/tutorials/linux-commands)
+:::tip[访问以下资源以了解更多信息]
+
+- [命令行速成课程](https://developer.mozilla.org/zh-CN/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line)
+- [你必须知道的 50+ Linux 命令](https://www.digitalocean.com/community/tutorials/linux-commands)
+
+:::

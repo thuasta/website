@@ -1,7 +1,9 @@
 # CI/CD
 
-CI/CD (Continuous Integration/Continuous Deployment) is the practice of automating building, testing, and deployment of applications with the main goal of detecting issues early, and provide quicker releases to the production environment.
+CI/CD，即持续集成/持续部署（Continuous Integration/Continuous Deployment），是一种自动构建、测试和部署应用程序的方法，其主要目标是尽早发现问题，并提供更快的发布到生产环境。
 
-Visit the following resources to learn more:
+:::tip[访问以下资源以了解更多信息]
 
-- [What is CI/CD?](https://about.gitlab.com/topics/ci-cd/)
+- [什么是 CI/CD？](https://about.gitlab.com/topics/ci-cd/)
+
+:::

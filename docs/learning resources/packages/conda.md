@@ -1,9 +1,11 @@
 # Conda
 
-Conda is an open source package management system and environment management system that runs on Windows, macOS, and Linux. Conda quickly installs, runs and updates packages and their dependencies. Conda easily creates, saves, loads and switches between environments on your local computer. It was created for Python programs, but it can package and distribute software for any language.
+Conda 是一个开源的包管理器和环境管理系统，支持 Windows、macOS 和 Linux 平台。它能够快速安装、运行和更新软件包及其依赖项，并在本地计算机上轻松创建、保存、加载和在切换不同环境。虽然 Conda 最初为 Python 程序设计，但它也支持其他语言的软件打包和分发。
 
-Conda as a package manager helps you find and install packages. If you need a package that requires a different version of Python, you do not need to switch to a different environment manager, because conda is also an environment manager. With just a few commands, you can set up a totally separate environment to run that different version of Python, while continuing to run your usual version of Python in your normal environment.
+作为包管理器，Conda 帮助你查找和安装所需的软件包。如果需要一个要求特定 Python 版本的软件包，你无需切换至其他环境管理工具，因为 Conda 本身就是一个强大的环境管理器。通过简单的命令操作，你就可以创建一个完全独立的环境来运行特定版本的 Python，同时继续在正常环境中运行你常用的 Python 版本。
 
-Visit the following resources to learn more:
+:::tip[访问以下资源以了解更多信息]
 
-- [Conda Docs](https://docs.conda.io/en/latest/)
+- [Conda 文档](https://docs.conda.io/en/latest/)
+
+:::

@@ -1,7 +1,9 @@
-# VSCode 101
+# VSCode
 
-VS Code (Visual Studio Code) is a lightweight but powerful source code editor developed by Microsoft. It comes with built-in support for JavaScript, TypeScript and Node.js, and has a rich ecosystem of extensions for other languages and runtimes. The main goal of learning VS Code is to enhance your productivity in coding, debugging, and version control.
+VS Code（Visual Studio Code）是由 Microsoft 开发的功能强大的轻量级源代码编辑器。它内置了对 JavaScript、TypeScript 和 Node.js 的支持，并具有一个丰富的扩展生态系统，支持多种编程语言和运行环境。学习使用 VS Code 的主要目的在于提升编写代码、运行调试和[版本控制](vcs/index.md)的工作效率。
 
-Visit the following resources to learn more:
+:::tip[访问以下资源以了解更多信息]
 
-- [Documentation for Visual Studio Code](https://code.visualstudio.com/docs)
+- [Visual Studio Code 文档](https://code.visualstudio.com/docs)
+
+:::

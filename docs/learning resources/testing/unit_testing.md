@@ -1,7 +1,13 @@
-# Unit Testing
+---
+sidebar_position: 1
+---
 
-Unit testing is where individual units (modules, functions/methods, routines, etc.) of software are tested to ensure their correctness. This low-level testing ensures smaller components are functionally sound while taking the burden off of higher-level tests. Generally, a developer writes these tests during the development process and they are run as automated tests.
+# 单元测试
 
-Visit the following resources to learn more:
+单元测试（Unit testing）是对软件中各个独立单元（如模块、函数或方法、例程等）进行测试，以确保它们的功能正确无误。这种底层测试能够保证较小组件的功能稳定，同时减轻上层测试的负担。通常，开发人员会在开发过程中编写这些测试，并以自动化测试的形式运行。
 
-- [Unit Testing Tutorial](https://www.guru99.com/unit-testing-guide.html)
+:::tip[访问以下资源以了解更多信息]
+
+- [单元测试教程](https://www.guru99.com/unit-testing-guide.html)
+
+:::

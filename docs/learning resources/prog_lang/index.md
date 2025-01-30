@@ -1,7 +1,7 @@
-# Learn a Language
+# 学习一种编程语言
 
-Even if you’re a beginner the least you would have known is that Web Development is majorly classified into two facets: Frontend Development and Backend Development. And obviously, they both have their respective set of tools and technologies. For instance, when we talk about Frontend Development, there always comes 3 names first and foremost – HTML, CSS, and JavaScript.
+即使你是初学者，你也应该知道 Web 开发主要分为前端开发（Frontend Development）和后端开发（Backend Development）两个领域。这两个领域都有其特定的工具和技术。例如，在前端开发中，我们总是想到 HTML、CSS 和 JavaScript。
 
-In the same way, when it comes to Backend Web Development – we primarily require a backend (or you can say server-side) programming language to make the website function along with various other tools & technologies such as databases, frameworks, web servers, etc.
+同样，当涉及后端 Web 开发时，我们需要至少一种后端或服务器端（server-side）的编程语言来使网站与各种其他工具和技术如数据库（databases）、框架（frameworks）、Web 服务器（servers）等一起正常运行。
 
-Pick a language from the given list and make sure to learn its quirks, core details about its runtime e.g. concurrency, memory model etc.
+选择一种编程语言，并深入理解其特性和运行时的核心细节，例如并发性（concurrency）、内存模型（memory model）等。

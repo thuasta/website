@@ -23,12 +23,9 @@ const config: Config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'zh',
-    locales: ['zh'],
+    locales: ['zh', 'en'],
   },
 
   presets: [
@@ -84,12 +81,16 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Docs',
+          label: '文档',
         },
-        { to: '/blog', label: 'Blog', position: 'left' },
+        { to: '/blog', label: '推送', position: 'left' },
         {
           href: 'https://github.com/thuasta',
           label: 'GitHub',
+          position: 'right',
+        },
+        {
+          type: 'localeDropdown',
           position: 'right',
         },
       ],

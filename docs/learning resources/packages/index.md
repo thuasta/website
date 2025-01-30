@@ -1,3 +1,3 @@
-# Package Managers
+# 包管理器
 
-Package managers allow you to manage the dependencies (external code written by you or someone else) that your project needs to work correctly.
+包管理器（Package Managers）帮助你管理项目所需的依赖项（无论是你还是其他人编写的代码）。这些依赖项对项目的正常运行至关重要。

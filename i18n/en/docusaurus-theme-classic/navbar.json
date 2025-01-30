@@ -1,0 +1,11 @@
+{
+    "title": {
+        "message": "ASTA"
+    },
+    "item.label.文档": {
+        "message": "Docs"
+    },
+    "item.label.推送": {
+        "message": "Blog"
+    }
+}

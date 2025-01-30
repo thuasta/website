@@ -1,10 +1,10 @@
 # CMake
 
-CMake is a powerful cross-platform build system that generates build files, Makefiles, or workspaces for various platforms and compilers. Unlike the others build systems, CMake does not actually build the project, it only generates the files needed by build tools. CMake is widely used, particularly in C++ projects, for its ease of use and flexibility.
+CMake 是一个强大的跨平台构建系统，可为各种平台和编译器生成构建文件、Makefiles 或工作空间。与其他构建系统不同，CMake 实际上并不构建项目，它只生成构建工具所需的文件。CMake 因其易用性和灵活性而被广泛使用，尤其是在 C++ 项目中。
 
 ## CMakeLists.txt
 
-CMake uses a file called `CMakeLists.txt` to define settings, source files, libraries, and other configurations. A typical `CMakeLists.txt` for a simple project would look like:
+CMake 使用一个名为 `CMakeLists.txt` 的文件来定义设置、源文件、库和其他配置。一个简单项目的典型 `CMakeLists.txt` 文件如下所示：
 
 ```cmake
 cmake_minimum_required(VERSION 3.0)
@@ -25,40 +25,42 @@ set_target_properties(${PROJECT_NAME} PROPERTIES
 )
 ```
 
-## Building with CMake
+## 使用 CMake 构建项目
 
-Here is an example of a simple build process using CMake:
+以下是一个使用 CMake 的简单构建过程的示例：
 
-- Create a new directory for the build.
+- 为构建项目创建一个新目录。
 
 ```sh
 mkdir build
 cd build
 ```
 
-- Generate build files using CMake.
+- 使用 CMake 生成构建文件。
 
 ```sh
 cmake ..
 ```
 
-In this example, `..` indicates the parent directory where `CMakeLists.txt` is located. The build files will be generated in the `build` directory.
+在这个例子中，`..` 表示 `CMakeLists.txt` 所在的父目录。构建文件将在 `build` 目录下生成。
 
-- Build the project using the generated build files.
+- 使用生成的构建文件构建项目。
 
 ```sh
 make
 ```
 
-Or, on Windows with Visual Studio, you may use:
+或者，在带有 Visual Studio 的 Windows 上，你可以使用：
 
 ```sh
 msbuild MyProject.sln
 ```
 
-CMake makes it easy to manage large projects, define custom build configurations, and work with many different compilers and operating systems. Making it a widely chosen tool for managing build systems in C++ projects.
+CMake 可以轻松管理大型项目，定义自定义构建配置，并适用于许多不同的编译器和操作系统。这使得它成为管理 C++ 项目构建系统的广泛选择工具。
 
-Visit the following resources to learn more:
+:::tip[访问以下资源以了解更多信息]
 
-- [CMake Official Tutorial](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)
-- [An Introduction to Modern CMake](https://cliutils.gitlab.io/modern-cmake/)
+- [CMake 官方教程](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)
+- [现代 CMake 入门](https://cliutils.gitlab.io/modern-cmake/)
+
+:::

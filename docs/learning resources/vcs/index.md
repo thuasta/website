@@ -1,7 +1,9 @@
-# Version Control Systems
+# 版本控制系统
 
-Version control/source control systems allow developers to track and control changes to code over time. These services often include the ability to make atomic revisions to code, branch/fork off of specific points, and to compare versions of code. They are useful in determining the who, what, when, and why code changes were made.
+版本控制系统（version control systems），也称源代码管理系统（source control systems），帮助开发者跟踪和控制代码随时间的变化。这些系统通常具备对代码进行原子性修改、从特定点创建分支（branch）或分叉（fork）以及以及比较不同版本代码等功能。它们对于确定代码更改的责任人、内容、时间和原因非常有帮助。
 
-Visit the following resources to learn more:
+:::tip[访问以下资源以了解更多信息]
 
-- [What is Version Control?](https://www.atlassian.com/git/tutorials/what-is-version-control)
+- [什么是版本控制？](https://www.atlassian.com/git/tutorials/what-is-version-control)
+
+:::
