@@ -1,9 +1,11 @@
-# What is HTTP?
+# 什么是 HTTP？
 
-HTTP is the `TCP/IP` based application layer communication protocol which standardizes how the client and server communicate with each other. It defines how the content is requested and transmitted across the internet.
+HTTP 是一种基于 `TCP/IP` 的应用层通信协议，它标准化了客户端和服务器之间的通信方式。它还定义了如何在互联网上请求和传输内容。
 
-Visit the following resources to learn more:
+:::tip[访问以下资源以了解更多信息]
 
-- [Everything you need to know about HTTP](https://cs.fyi/guide/http-in-depth)
-- [What is HTTP?](https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/)
-- [An overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
+- [你需要了解的 HTTP 的所有信息](https://cs.fyi/guide/http-in-depth)
+- [什么是 HTTP？](https://www.cloudflare.com/zh-cn/learning/ddos/glossary/hypertext-transfer-protocol-http/)
+- [HTTP 概述](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Overview)
+
+:::

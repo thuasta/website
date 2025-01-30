@@ -1,10 +1,12 @@
 # REST
 
-REST, or REpresentational State Transfer, is an architectural style for providing standards between computer systems on the web, making it easier for systems to communicate with each other.
+REST，即表述性状态转移（REpresentational State Transfer），是一种用于在 Web 上提供计算机系统之间标准的软件架构风格，使得系统之间更容易相互通信。
 
-Visit the following resources to learn more:
+:::tip[访问以下资源以了解更多信息]
 
-- [What is REST?](https://www.codecademy.com/article/what-is-rest)
-- [What is a REST API?](https://www.redhat.com/en/topics/api/what-is-a-rest-api)
-- [Roy Fieldings dissertation chapter, Representational State Transfer (REST)](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)
-- [Learn REST: A RESTful Tutorial](https://restapitutorial.com/)
+- [什么是 REST？](https://www.codecademy.com/article/what-is-rest)
+- [什么是 REST API？](https://www.redhat.com/zh/topics/api/what-is-a-rest-api)
+- [Roy Fielding 的论文章节，Representational State Transfer (REST)](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)
+- [学习 REST：一个 RESTful 教程](https://restapitutorial.com/)
+
+:::

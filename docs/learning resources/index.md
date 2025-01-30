@@ -1,4 +1,3 @@
-# learning resources
+# 学习资源
 
-These learning resources are part of the explanation and helped provided by the THUASTA's website for coding-related work.
-And will be updated from time to time.
+这些学习资源是 THUASTA 网站提供的代码相关工作的解释和帮助的一部分，并会不定期更新。

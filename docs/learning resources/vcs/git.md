@@ -1,9 +1,11 @@
 # Git
 
-Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+Git 是一个免费的开源分布式版本控制系统，旨在快速高效地处理从小型到超大型项目的在内的所有项目。
 
-Visit the following resources to learn more:
+:::tip[访问以下资源以了解更多信息]
 
-- [Learn Git Branching](https://learngitbranching.js.org/)
-- [Git Tutorial](https://www.w3schools.com/git/)
-- [Git Cheatsheet](https://cs.fyi/guide/git-cheatsheet)
+- [Learn Git Branching](https://learngitbranching.js.org/?locale=zh_CN)
+- [Git 教程](https://www.w3schools.com/git/)
+- [Git 命令合集](https://cs.fyi/guide/git-cheatsheet)
+
+:::

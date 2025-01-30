@@ -1,15 +1,19 @@
 # Python
 
-Python is a well known programming language which is both a strongly typed and a dynamically typed language. Being an interpreted language, code is executed as soon as it is written and the Python syntax allows for writing code in functional, procedural or object-oriented programmatic ways.
+Python 是一种广泛使用的编程语言，结合了强类型和动态类型的特点。作为解释型语言，Python 代码在编写后可以立即执行，无需提前编译。Python 的语法灵活，支持函数式（functional）、过程式（procedural）和面向对象（programmatic）等多种编程范式。
 
-Visit the following resources to learn more:
+:::tip[访问以下资源以了解更多信息]
 
-- [W3Schools - Python Tutorial](https://www.w3schools.com/python/)
+- [Python Tutorial：W3Schools](https://www.w3schools.com/python/)
+- [Python 教程](https://docs.python.org//zh-cn/3/tutorial/index.html)
+- [pip 文档](https://pip.pypa.io/en/stable/)
 
-- [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
+:::
 
-- [pip documentation](https://pip.pypa.io/en/stable/)
+:::note
 
-After learning the basics of Python, you can start learning about Poetry, a Python dependency management tool.
+在学习了 Python 的基础知识之后，你可以开始学习[Poetry](../packages/poetry.md)，一个 Python 依赖管理工具。
 
-- [Poetry - Python dependency management and packaging made easy](https://python-poetry.org/)
+- [Poetry 官网](https://python-poetry.org/)
+
+:::

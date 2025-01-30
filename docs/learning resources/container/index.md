@@ -1,7 +1,9 @@
-# Containerization vs. Virtualization
+# 容器化与虚拟化
 
-Containers and virtual machines are the two most popular approaches to setting up a software infrastructure for your organization.
+容器（containers）和虚拟机（virtual machines）是为组织设置软件基础架构的两种最流行的方法。
 
-Visit the following resources to learn more:
+:::tip[访问以下资源以了解更多信息]
 
-- [Containerization vs. Virtualization: Everything you need know](https://middleware.io/blog/containerization-vs-virtualization/)
+- [容器化与虚拟化：你需要了解的一切](https://middleware.io/blog/containerization-vs-virtualization/)
+
+:::

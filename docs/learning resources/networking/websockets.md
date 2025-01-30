@@ -1,8 +1,10 @@
 # WebSockets
 
-Web sockets are defined as a two-way communication between the servers and the clients, which mean both the parties, communicate and exchange data at the same time. This protocol defines a full duplex communication from the ground up. Web sockets take a step forward in bringing desktop rich functionalities to the web browsers.
+WWebSockets 是服务器与客户端之间的双向通信协议，这意味着双方可以同时进行通信并交换数据。该协议从头开始定义了全双工通信。WebSockets 在将桌面级的丰富功能带入 Web 浏览器方面向前迈进了一步。
 
-Visit the following resources to learn more:
+:::tip[访问以下资源以了解更多信息]
 
-- [Introduction to WebSockets](https://www.tutorialspoint.com/websockets/index.htm)
-- [Socket.io Library](https://socket.io/)
+- [WebSockets 简介](https://www.tutorialspoint.com/websockets/index.htm)
+- [Socket.io 库](https://socket.io/zh-CN/)
+
+:::
